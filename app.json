@@ -1,0 +1,28 @@
+{
+  "name": "Hibox.co",
+  "description": "Open Source Scheduling",
+  "repository": "https://github.com/calcom/hibox.co",
+  "logo": "https://hibox.co/android-chrome-512x512.png",
+  "keywords": [
+    "react",
+    "typescript",
+    "node",
+    "nextjs",
+    "prisma",
+    "postgres",
+    "trpc"
+  ],
+  "addons": [
+    {
+      "plan": "heroku-postgresql:hobby-dev"
+    }
+  ],
+  "env": {
+    "BASE_URL": "https://${HEROKU_APP_NAME}.herokuapp.com",
+    "HIBOX_ENCRYPTION_KEY": "32-random-string",
+    "JWT_SECRET": "secret"
+  },
+  "scripts": {
+    "postdeploy": "npx prisma migrate deploy"
+  }
+}
