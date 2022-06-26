@@ -46,7 +46,7 @@
     "@hookform/resolvers": "^2.8.5",
     "@jitsu/sdk-js": "^2.2.4",
     "@metamask/providers": "^8.1.1",
-    "@next/bundle-analyzer": "11.1.2",
+    "@next/bundle-analyzer": "11.1.4",
     "@prisma/client": "3.0.2",
     "@radix-ui/react-avatar": "^0.1.0",
     "@radix-ui/react-collapsible": "^0.1.0",
