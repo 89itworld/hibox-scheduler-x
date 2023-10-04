@@ -111,7 +111,7 @@
     "tslog": "^3.2.1",
     "uuid": "^8.3.2",
     "web3": "^1.6.1",
-    "zod": "^3.8.2"
+    "zod": "^3.22.3"
   },
   "devDependencies": {
     "@microsoft/microsoft-graph-types-beta": "0.15.0-preview",
